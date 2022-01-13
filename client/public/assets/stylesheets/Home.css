@@ -118,7 +118,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 352px;
-  background-image: url("images/pexels-photo-9928825.jpeg");
+  background-image: url("client\public\assets\images\pexels-photo-9928825.jpeg");
   background-position: 50% 50%;
 }
 
@@ -444,7 +444,7 @@
       rgba(0, 0, 0, 0.15),
       rgba(0, 0, 0, 0.15)
     ),
-    url("images/6e6e1da50aaa57e13573169125417674d24b32a214b4e98177ecc7ebba372619dae5d45158621734038f10d9ac1bf46dd3b2ffa73313480ddd5df2_1280.jpg");
+    url("client\public\assets\images\6e6e1da50aaa57e13573169125417674d24b32a214b4e98177ecc7ebba372619dae5d45158621734038f10d9ac1bf46dd3b2ffa73313480ddd5df2_1280.jpg");
   background-position: 50% 50%;
 }
 
