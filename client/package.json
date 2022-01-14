@@ -6,8 +6,8 @@
   "proxy": "http://localhost:3001",
   "main": "index.js",
   "scripts": {
-    "build:tailwind": "postcss src/tailwind.css -o src/tailwind.generated.css",
-    "watch:tailwind": "postcss -w src/tailwind.css -o src/tailwind.generated.css",
+    "build:tailwind": "postcss src/tailwind.css -o public/tailwind.generated.css",
+    "watch:tailwind": "postcss -w src/tailwind.css -o public/tailwind.generated.css",
     "start": "react-scripts start",
     "dev": "run-p watch:tailwind start",
     "prebuild": "npm run build:tailwind",
