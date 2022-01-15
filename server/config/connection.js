@@ -1,3 +1,4 @@
+require('dotenv').config({path: "../.env"});
 // importing mongoose
 const mongoose = require('mongoose');
 
