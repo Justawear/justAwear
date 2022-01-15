@@ -1,9 +1,30 @@
 import React from 'react';
 
 function ContactForm() {
+    const [errorMessage, setErrorMessage] = useState('');
+    const { name, email, message } = formState;
+    const [formState, setFormState] = useState();
+    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    <input type="email" name="email" defaultValue={formState.name} />
+    <input type="text" defaultValue={name} name="name" />
+<input type="email" defaultValue={email} name="email" />
+<input type="text" defaultValue={name} onChange={handleChange} name="name" />
+<textarea name="message" defaultValue={message} rows="5"  />
 
+<input type="email" defaultValue={email} name="email" onChange={handleChange} />
+<textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
     // JSX
+<form id="contact-form" onSubmit={handleSubmit}></form>
     }
+    function handleChange(e) {
+        setFormState({...formState, name: e.target.value })
+      }
+      
+      function handleSubmit(e) {
+        e.preventDefault();
+        console.log(formState);
+      }
+
     return (
         <section>
           <h1>Contact me</h1>
@@ -24,5 +45,5 @@ function ContactForm() {
           </form>
         </section>
         );
-        
+
     export default ContactForm;

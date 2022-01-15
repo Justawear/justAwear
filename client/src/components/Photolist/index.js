@@ -4,9 +4,17 @@ import React from 'react'
 import { render, cleanup } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 import PhotoList from '../'
+import Modal from '../Modal';
 
 afterEach(cleanup)
+const [isModalOpen, setIsModalOpen] = useState(false);
+{isModalOpen && <Modal currentPhoto={currentPhoto} />}
 
+const toggleModal = (image, i) => {
+    setCurrentPhoto({...image, index: i})
+    setIsModalOpen(true);
+  }
+  
 describe('PhotoList is rendering', () => {
   it('renders', () => {
     render(<PhotoList />);
@@ -19,8 +27,12 @@ describe('PhotoList is rendering', () => {
 });
 const PhotoList = ({ category }) => {
 
-  const [photos] = useState([
+    const [currentPhoto, setCurrentPhoto] = useState();
+    const toggleModal = (image, i) => {
+        setCurrentPhoto({...image, index: i});
+      }
     {
+        <Modal currentPhoto={currentPhoto}></Modal>
       name: 'Grocery aisle',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
@@ -121,6 +133,8 @@ const PhotoList = ({ category }) => {
 
   return (
     <div>
+         <Modal />
+    ...
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
           <img
