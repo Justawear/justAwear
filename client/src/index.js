@@ -2,9 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import coverImage from "../../assets/cover/cover-image.jpg";
+import reportWebVitals from './utils/reportWebVitals';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
