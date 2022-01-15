@@ -1,0 +1,29 @@
+{
+  "name": "justawear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pre:develop": "cd server &&  npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "watch:server": "cd server && npm run watch",
+    "watch:client": "cd client && npm run start",
+    "dev": "concurrently npm:watch:*",
+    "post:develop": "cd client && npm run build",
+    "start": "cd server && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justawear/justAwear.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Justawear/justAwear/issues"
+  },
+  "homepage": "https://github.com/Justawear/justAwear#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
