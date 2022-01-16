@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 import {Menu, Typography} from 'antd';
 
+import Cart from '../Cart';
+
 
 function Nav() {
 
@@ -25,20 +27,26 @@ function Nav() {
                 Logout
               </a>
           </Menu.Item>
+          <Menu.Item key="cart">
+            <Cart />
+          </Menu.Item>
     </Fragment>
       );
     } else {
       return (
         <Fragment>
           <Menu.Item key="/signup">
-          <Link to="/signup">
-            Signup
-          </Link>
-        </Menu.Item>
+            <Link to="/signup">
+              Signup
+            </Link>
+          </Menu.Item>
           <Menu.Item key="/login">
-        <Link to={'/login'}>
-            Login
-        </Link>
+            <Link to={'/login'}>
+                Login
+            </Link>
+          </Menu.Item>
+          <Menu.Item key="cart">
+            <Cart />
           </Menu.Item>
         </Fragment>
       );

@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import CategoryMenu from '../components/CategoryMenu';
-import ProductList from '../components/ProductList/inxex';
+import ProductList from '../components/ProductList';
 
 export const Home = () => {
   return (
