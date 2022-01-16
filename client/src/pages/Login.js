@@ -64,7 +64,7 @@ function Login(props) {
           </div>
         ) : null}
         <div className="flex-row flex-end">
-          <Button type="primary">Submit</Button>
+          <Button type="primary" onClick={handleFormSubmit }>Submit</Button>
         </div>
       </form>
     </div>

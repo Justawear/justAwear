@@ -61,7 +61,7 @@ function Nav() {
         <Menu.Item key="/"  style={{marginRight: "auto"}}>
           <Typography.Title level={3} style={{display: "inline-block", padding: "0 5px"}}>
             <Link to="/">
-              Just a Wear.
+              JUSTAWARE
             </Link>
           </Typography.Title>
         </Menu.Item>
