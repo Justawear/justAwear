@@ -10,7 +10,7 @@ import { idbPromise } from '../../utils/helpers';
 
 import { useDispatch, useSelector } from 'react-redux';
 
-import {Col, Typography, Radio} from 'antd';
+import {Row, Col, Typography, Radio} from 'antd';
 import './style.css';
 
 const CategoryMenu = () => {
@@ -48,25 +48,25 @@ const CategoryMenu = () => {
   };
 
   return (
-    <Fragment>
+    <Row align="middle">
       <Col className="hero">
-        <Typography.Title level={3} style={{color: "white", marginTop: "100px"}}>CHOOSE CATEGORY</Typography.Title>
+        <Typography.Title level={3} style={{color: "white"}}>CHOOSE CATEGORY</Typography.Title>
         <Radio.Group buttonStyle="solid" style={{margin: "10px auto"}} size="large">
-        {categories.map(category => {
-          return (
-            <Radio.Button key={category._id}
-              onClick={() => {
-                handleClick(category._id);
-              }}
-              style={{margin: "5px 5px"}}
-            >
-              {category.name}
-            </Radio.Button>
-          )
-        })}
-    </Radio.Group>
+          {categories.map(category => {
+            return (
+              <Radio.Button key={category._id}
+                onClick={() => {
+                  handleClick(category._id);
+                }}
+                style={{margin: "5px 5px"}}
+              >
+                {category.name}
+              </Radio.Button>
+            )
+          })}
+        </Radio.Group>
       </Col>
-    </Fragment>
+    </Row>
   )
 }
 

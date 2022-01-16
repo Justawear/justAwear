@@ -56,6 +56,7 @@ function Nav() {
   return (
     <Fragment>
     <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal"
+    style={{position: "fixed", width: "100%", zIndex: "222"}}
     >
         <Menu.Item key="/"  style={{marginRight: "auto"}}>
           <Typography.Title level={3} style={{display: "inline-block", padding: "0 5px"}}>
