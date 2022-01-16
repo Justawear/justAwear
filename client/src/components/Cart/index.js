@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import { useLazyQuery } from '@apollo/client';
 import { QUERY_CHECKOUT } from '../../utils/queries';
@@ -9,7 +9,7 @@ import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../redux/constants';
 
 import { useDispatch, useSelector } from 'react-redux';
 
-import { Modal, Button } from 'antd';
+import { Modal, Button, Badge } from 'antd';
 
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
@@ -19,7 +19,7 @@ const Cart = () => {
 
   const dispatch = useDispatch();
 
-  const { cart, cartOpen } = useSelector(state => state.shop);
+  const { cart } = useSelector(state => state.shop);
 
   useEffect(() => {
     if (data) {
@@ -81,18 +81,32 @@ const Cart = () => {
     toggleCart();
   };
 
-  if (!cartOpen) {
-    return (
-      <div onClick={showModal} style={{marginRight: "15px"}}>
-        <span role="img" aria-label="trash">
-          🛒
-        </span>
-      </div>
-    );
+  const calcCount = () => {
+    let sum = 0;
+    cart.map(item => sum += item.purchaseQuantity);
+    return sum;
   }
 
+  // if (cart && !cartOpen) {
+  //   return (
+  //     <div onClick={showModal} style={{marginRight: "15px"}}>
+  //       <span role="img" aria-label="trash">
+  //         🛒
+  //       </span>
+  //     </div>
+  //   );
+  // }
+
   return (
-    <Modal title="Your Cart" 
+    <Fragment>
+      <Badge count={calcCount()}>
+        <div onClick={showModal} style={{marginRight: "15px", width: "100%", height: "100%"}}>
+          <span role="img" aria-label="trash">
+            🛒
+          </span>
+        </div>
+      </Badge>
+      <Modal title="Your Cart" 
       visible={isModalVisible} 
       cancelText="Keep Shopping" 
       onOk={handleOk} 
@@ -125,6 +139,7 @@ const Cart = () => {
         </h3>
       )}
     </Modal>
+    </Fragment>
   )
 }
 
