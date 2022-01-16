@@ -1,58 +1,64 @@
-import React from "react";
+import React, {Fragment, useState} from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+
+import {Menu, Typography} from 'antd';
 
 
 function Nav() {
 
+  const [current, setCurrent] = useState(null);
+  const handleClick = e => setCurrent(e.key);
+  
+
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <ul className="flex-row">
-          <li className="mx-1">
-            <Link to="/orderHistory">
-              Order History
-            </Link>
-          </li>
-          <li className="mx-1">
-            {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-            <a href="/" onClick={() => Auth.logout()}>
-              Logout
-            </a>
-          </li>
-        </ul>
+      <Fragment>
+          <Menu.Item key="/orderHistory">
+              <Link to="/orderHistory">
+                Order History
+              </Link>
+          </Menu.Item>
+          <Menu.Item key="/logout">
+          <a href="/" onClick={() => Auth.logout()}>
+                Logout
+              </a>
+          </Menu.Item>
+    </Fragment>
       );
     } else {
       return (
-        <ul className="flex-row">
-          <li className="mx-1">
-            <Link to="/signup">
-              Signup
-            </Link>
-          </li>
-          <li className="mx-1">
-            <Link to="/login">
-              Login
-            </Link>
-          </li>
-        </ul>
+        <Fragment>
+          <Menu.Item key="/signup">
+          <Link to="/signup">
+            Signup
+          </Link>
+        </Menu.Item>
+          <Menu.Item key="/login">
+        <Link to={'/login'}>
+            Login
+        </Link>
+          </Menu.Item>
+        </Fragment>
       );
     }
   }
 
   return (
-    <header className="flex-row px-1">
-      <h1>
-        <Link to="/">
-          <span role="img" aria-label="shopping bag">🛍️</span>
-          -Shop-Shop
-        </Link>
-      </h1>
-
-      <nav>
+    <Fragment>
+    <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal"
+    >
+        <Menu.Item key="/"  style={{marginRight: "auto"}}>
+          <Typography.Title level={3} style={{display: "inline-block", padding: "0 5px"}}>
+            <Link to="/">
+              Just a Wear.
+            </Link>
+          </Typography.Title>
+        </Menu.Item>
         {showNavigation()}
-      </nav>
-    </header>
+    </Menu>
+    </Fragment>
   );
 }
 
