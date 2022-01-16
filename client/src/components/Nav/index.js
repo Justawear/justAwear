@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 import {Menu, Typography} from 'antd';
 
+import Cart from '../Cart';
+
 
 function Nav() {
 
@@ -25,20 +27,26 @@ function Nav() {
                 Logout
               </a>
           </Menu.Item>
+          <Menu.Item key="cart">
+            <Cart />
+          </Menu.Item>
     </Fragment>
       );
     } else {
       return (
         <Fragment>
           <Menu.Item key="/signup">
-          <Link to="/signup">
-            Signup
-          </Link>
-        </Menu.Item>
+            <Link to="/signup">
+              Signup
+            </Link>
+          </Menu.Item>
           <Menu.Item key="/login">
-        <Link to={'/login'}>
-            Login
-        </Link>
+            <Link to={'/login'}>
+                Login
+            </Link>
+          </Menu.Item>
+          <Menu.Item key="cart">
+            <Cart />
           </Menu.Item>
         </Fragment>
       );
@@ -48,11 +56,12 @@ function Nav() {
   return (
     <Fragment>
     <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal"
+    style={{position: "fixed", width: "100%", zIndex: "222"}}
     >
         <Menu.Item key="/"  style={{marginRight: "auto"}}>
           <Typography.Title level={3} style={{display: "inline-block", padding: "0 5px"}}>
             <Link to="/">
-              Just a Wear.
+              JUSTAWARE
             </Link>
           </Typography.Title>
         </Menu.Item>
