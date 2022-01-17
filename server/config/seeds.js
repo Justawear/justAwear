@@ -126,74 +126,434 @@ db.once('open', async () => {
       quantity: 600
     },
     {
-      name: 'Black Sweater',
+      name: 'Cashmere Dress',
       category: categories[1]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'women/home_wear.webp',
-      price: 67.99,
+        'Soft, lightweight cashmere creates the fluid drape of this cowlneck dress, which features an alluring slit at the left hem and an attached self-belt that spotlights the waist. Its cowl neckline can be styled to be worn on or off the shoulders.',
+      image: 'women/browndress.jpeg',
+      price: 767.99,
       quantity: 20
     },
     {
-      name: 'The North Face Hoodie',
+      name: 'Bear Sweatshirt',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'women/hoodie_tnf.webp',
-      price: 63.99,
-      quantity: 50
+        "This soft fleece sweatshirt is defined by the Polo Bear, which was first introduced in 1991. Here, our iconic mascot dons signature Ralph Lauren pieces, including a flight suit, an ascot scarf, and leather accessories.",
+      image: 'women/womensweat.jpeg',
+      price: 89.99,
+      quantity: 20
     },
     {
-      name: 'Pink Sweater',
+      name: 'Denim Trouser',
       category: categories[1]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'women/training_s.webp',
-      price: 44.99,
-      quantity: 100
+        "Cut from lightweight cotton twill and washed for a light indigo hue, these straight-fitting pants are pleated for a tapered fit above the ankles. A removable self-belt spotlights the waist",
+      image: 'women/denimtrouser.jpeg',
+      price: 99.99,
+      quantity: 20
     },
     {
-      name: 'Kids Polo',
+      name: 'Tie-Cuff Shirtdress',
+      category: categories[1]._id,
+      description:
+        "Printed all over with the season's block-inspired motif, this fit-and-flare shirtdress gets a modern update with self-ties that cinch the cuffs of its blouson sleeves.",
+      image: 'women/shirtdress.jpeg',
+      price: 134.99,
+      quantity: 20
+    },
+    {
+      name: 'Fleece Hoodie',
+      category: categories[1]._id,
+      description:
+        "Detailed with a lace-up placket and cotton twill trim, this oversize fleece hoodie features dropped sleeves and elongated vents at the hem.",
+      image: 'women/fleecehoodie.jpeg',
+      price: 65.99,
+      quantity: 20
+    },
+    {
+      name: 'Cashmere Turtleneck',
+      category: categories[1]._id,
+      description:
+        "Knit from pure cashmere, this medium-weight turtleneck is designed for a relaxed fit through the sleeves and body with tapered rib-knit trim at the cuffs and hem.",
+      image: 'women/turtleneck.jpeg',
+      price: 229.99,
+      quantity: 20
+    },
+    {
+      name: 'High-Rise Jeans',
+      category: categories[1]._id,
+      description:
+        "Inspired by a heritage style from the Ralph Lauren archives, this version of our Callen High-Rise Slim features a medium indigo wash with heavy abrasions and hand-sanded whiskering. The soft denim character is achieved through authentic ring-spun construction.",
+      image: 'women/highrisejean.jpeg',
+      price: 85.99,
+      quantity: 20
+    },
+    {
+      name: 'Corduroy Overall',
+      category: categories[1]._id,
+      description:
+        "Relaxed-fitting overalls made from 9.4 oz. indigo-dyed eight-wale corduroy woven in Japan. Inspired by a '40s overall. Hand-repaired with five- and 10-wale corduroy. Finished with American-made metal buttons.",
+      image: 'women/overall.jpeg',
+      price: 349.99,
+      quantity: 20
+    },
+    {
+      name: 'Wide-Leg Pants',
+      category: categories[1]._id,
+      description:
+        "Stretch-infused right-hand-twill denim and a cropped, wide-leg silhouette unite to create this ultrachic style. It features a Lauren Ralph Lauren engraved horn-effect button for a signature finish.",
+      image: 'women/widepant.jpeg',
+      price: 59.99,
+      quantity: 20
+    },
+    {
+      name: 'Faux-Shearling Shirt',
+      category: categories[1]._id,
+      description:
+        "Rendered in cozy high-pile fleece and cut for an oversize silhouette, this shirt is realized in the season's cream color palette.",
+      image: 'women/oversizeshirt.jpeg',
+      price: 210.99,
+      quantity: 20
+    },
+    {
+      name: 'Crepe Short',
+      category: categories[1]._id,
+      description:
+        "Luxurious matte crepe and crisp pleats lend smart sophistication to these shorts, which are belted at the waist with a removable striped webbed belt.",
+      image: 'women/crepeshort.jpeg',
+      price: 99.99,
+      quantity: 20
+    },
+    {
+      name: 'Wrap Dress',
+      category: categories[1]._id,
+      description:
+        "Designed with a true wrap silhouette for fluid movement, this dress is crafted from lightweight fabric with a delicate crinkled texture and a watercolor-inspired floral print.",
+      image: 'women/wrapdress.jpeg',
+      price: 180.99,
+      quantity: 20
+    },
+    {
+      name: '',
       category: categories[2]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
-      image: 'kids/polo_shirt.jpeg',
-      price: 39.99,
+        "",
+      image: 'kids/',
+      price: .99,
       quantity: 30
     },
     {
-      name: 'TNF Long-Sleeve',
+      name: '',
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'kids/shirt.webp',
-      price: 29.99,
+        "",
+      image: 'kids/',
+      price: .99,
       quantity: 30
     },
     {
-      name: 'FitBit',
-      category: categories[4]._id,
+      name: '',
+      category: categories[2]._id,
       description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'accessories/fitness_tracker_1.webp',
-      price: 149.99,
-      quantity: 1000
+        "",
+      image: 'kids/',
+      price: .99,
+      quantity: 30
     },
     {
-      name: 'Gold Necklace',
-      category: categories[4]._id,
+      name: '',
+      category: categories[2]._id,
       description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
-      image: 'accessories/nicklace.webp',
-      price: 749.99,
-      quantity: 100
+        "",
+      image: 'kids/',
+      price: .99,
+      quantity: 30
     },
     {
-      name: 'Wireless Headphones',
+      name: '',
+      category: categories[2]._id,
+      description:
+        "",
+      image: 'kids/',
+      price: .99,
+      quantity: 30
+    },
+    {
+      name: '',
+      category: categories[2]._id,
+      description:
+        "",
+      image: 'kids/',
+      price: .99,
+      quantity: 30
+    },
+    {
+      name: '',
+      category: categories[2]._id,
+      description:
+        "",
+      image: 'kids/',
+      price: .99,
+      quantity: 30
+    },
+    {
+      name: '',
+      category: categories[2]._id,
+      description:
+        "",
+      image: 'kids/',
+      price: .99,
+      quantity: 30
+    },
+    {
+      name: '',
+      category: categories[2]._id,
+      description:
+        "",
+      image: 'kids/',
+      price: .99,
+      quantity: 30
+    },
+    {
+      name: '',
+      category: categories[2]._id,
+      description:
+        "",
+      image: 'kids/',
+      price: .99,
+      quantity: 30
+    },
+    {
+      name: '',
+      category: categories[2]._id,
+      description:
+        "",
+      image: 'kids/',
+      price: .99,
+      quantity: 30
+    },
+    {
+      name: '',
+      category: categories[2]._id,
+      description:
+        "",
+      image: 'kids/',
+      price: .99,
+      quantity: 30
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
+      category: categories[3]._id,
+      description:
+        "",
+      image: 'shoes/',
+      price: .99,
+      quantity: 60
+    },
+    {
+      name: '',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'accessories/headphones.webp',
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
+      price: 142.99,
+      quantity: 600
+    },
+    {
+      name: '',
+      category: categories[4]._id,
+      description:
+        "",
+      image: 'accessories/',
       price: 142.99,
       quantity: 600
     }
