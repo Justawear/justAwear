@@ -234,329 +234,329 @@ db.once('open', async () => {
       quantity: 20
     },
     {
-      name: '',
+      name: 'Winter Jacket',
       category: categories[2]._id,
       description:
-        "",
-      image: 'kids/',
-      price: .99,
+        "This quilted jacket is made from recycled nylon and filled with PrimaLoft® ThermoPlume® insulation, reinforcing Ralph Lauren's aim to create the highest-quality products with minimal harm to the environment. It also reverses between two solid-hued sides for versatility.",
+      image: 'kids/boysjacket.jpeg',
+      price: 135.99,
       quantity: 30
     },
     {
-      name: '',
+      name: 'V-Neck Cardigan',
       category: categories[2]._id,
       description:
-        "",
-      image: 'kids/',
-      price: .99,
+        "Knit from long-staple cotton and washed, this lightweight cardigan is ideal for layering in any season.",
+      image: 'kids/boyscardigan.jpeg',
+      price: 44.99,
       quantity: 30
     },
-    {
-      name: '',
-      category: categories[2]._id,
-      description:
-        "",
-      image: 'kids/',
-      price: .99,
-      quantity: 30
-    },
-    {
-      name: '',
-      category: categories[2]._id,
-      description:
-        "",
-      image: 'kids/',
-      price: .99,
-      quantity: 30
-    },
-    {
-      name: '',
-      category: categories[2]._id,
-      description:
-        "",
-      image: 'kids/',
-      price: .99,
-      quantity: 30
-    },
-    {
-      name: '',
-      category: categories[2]._id,
-      description:
-        "",
-      image: 'kids/',
-      price: .99,
-      quantity: 30
-    },
-    {
-      name: '',
-      category: categories[2]._id,
-      description:
-        "",
-      image: 'kids/',
-      price: .99,
-      quantity: 30
-    },
-    {
-      name: '',
-      category: categories[2]._id,
-      description:
-        "",
-      image: 'kids/',
-      price: .99,
-      quantity: 30
-    },
-    {
-      name: '',
-      category: categories[2]._id,
-      description:
-        "",
-      image: 'kids/',
-      price: .99,
-      quantity: 30
-    },
-    {
-      name: '',
-      category: categories[2]._id,
-      description:
-        "",
-      image: 'kids/',
-      price: .99,
-      quantity: 30
-    },
-    {
-      name: '',
-      category: categories[2]._id,
-      description:
-        "",
-      image: 'kids/',
-      price: .99,
-      quantity: 30
-    },
-    {
-      name: '',
-      category: categories[2]._id,
-      description:
-        "",
-      image: 'kids/',
-      price: .99,
-      quantity: 30
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[3]._id,
-      description:
-        "",
-      image: 'shoes/',
-      price: .99,
-      quantity: 60
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    },
-    {
-      name: '',
-      category: categories[4]._id,
-      description:
-        "",
-      image: 'accessories/',
-      price: 142.99,
-      quantity: 600
-    }
+    // {
+    //   name: '',
+    //   category: categories[2]._id,
+    //   description:
+    //     "",
+    //   image: 'kids/.jpeg',
+    //   price: .99,
+    //   quantity: 30
+    // },
+    // {
+    //   name: '',
+    //   category: categories[2]._id,
+    //   description:
+    //     "",
+    //   image: 'kids/.jpeg',
+    //   price: .99,
+    //   quantity: 30
+    // },
+    // {
+    //   name: '',
+    //   category: categories[2]._id,
+    //   description:
+    //     "",
+    //   image: 'kids/.jpeg',
+    //   price: .99,
+    //   quantity: 30
+    // },
+    // {
+    //   name: '',
+    //   category: categories[2]._id,
+    //   description:
+    //     "",
+    //   image: 'kids/.jpeg',
+    //   price: .99,
+    //   quantity: 30
+    // },
+    // {
+    //   name: '',
+    //   category: categories[2]._id,
+    //   description:
+    //     "",
+    //   image: 'kids/.jpeg',
+    //   price: .99,
+    //   quantity: 30
+    // },
+    // {
+    //   name: '',
+    //   category: categories[2]._id,
+    //   description:
+    //     "",
+    //   image: 'kids/.jpeg',
+    //   price: .99,
+    //   quantity: 30
+    // },
+    // {
+    //   name: '',
+    //   category: categories[2]._id,
+    //   description:
+    //     "",
+    //   image: 'kids/.jpeg',
+    //   price: .99,
+    //   quantity: 30
+    // },
+    // {
+    //   name: '',
+    //   category: categories[2]._id,
+    //   description:
+    //     "",
+    //   image: 'kids/.jpeg',
+    //   price: .99,
+    //   quantity: 30
+    // },
+    // {
+    //   name: '',
+    //   category: categories[2]._id,
+    //   description:
+    //     "",
+    //   image: 'kids/.jpeg',
+    //   price: .99,
+    //   quantity: 30
+    // },
+    // {
+    //   name: '',
+    //   category: categories[2]._id,
+    //   description:
+    //     "",
+    //   image: 'kids/.jpeg',
+    //   price: .99,
+    //   quantity: 30
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[3]._id,
+    //   description:
+    //     "",
+    //   image: 'shoes/',
+    //   price: .99,
+    //   quantity: 60
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: '',
+    //   category: categories[4]._id,
+    //   description:
+    //     "",
+    //   image: 'accessories/',
+    //   price: 142.99,
+    //   quantity: 600
+    // }
   ]);
 
   console.log('products seeded');
