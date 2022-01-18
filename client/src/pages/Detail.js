@@ -1,18 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 
-import Cart from '../components/Cart';
+
 import { 
     REMOVE_FROM_CART,   
     UPDATE_CART_QUANTITY,
     ADD_TO_CART,
     UPDATE_PRODUCTS
-} from '../utils/actions';
+} from '../redux/constants';
 import { QUERY_PRODUCTS } from '../utils/queries';
 import { idbPromise } from '../utils/helpers';
 import spinner from '../assets/spinner.gif';
 import { useDispatch, useSelector } from 'react-redux';
+
+import {Col, Typography, Image, Button} from 'antd';
 
 function Detail() {
     const dispatch = useDispatch();
@@ -34,9 +36,10 @@ function Detail() {
                 type: UPDATE_PRODUCTS,
                 products: data.products
             });
-        data.products.forEach((product) => {
-            idbPromise('products', 'put', product);
-        });
+
+            data.products.forEach((product) => {
+                idbPromise('products', 'put', product);
+            });
         }
         else if (!loading) {
             idbPromise('products', 'get').then(
@@ -83,32 +86,42 @@ function Detail() {
     }
 
     return (
-        <>
+        <Fragment>
             {currentProduct && cart ? (
-                <div className='container my-1'>
-                    <Link to='/'>Back to the Products</Link>
+                <Fragment>
+                    <Col style={{paddingTop: "70px"}}>
+                        <Link to="/" style={{marginLeft: "15px"}}>← Back to Products</Link>
+                    </Col>
 
-                    <h2>{currentProduct.name}</h2>
-                    <p>{currentProduct.description}</p>
+                    <Col style={{textAlign: "center"}}>
+                        <Typography.Title level={2}>{currentProduct.name}</Typography.Title>
 
-                    <p>
-                        <strong>Price:</strong>${currentProduct.price}{' '}
-                        <button onClick={addToCart}>Add To The CART!</button>
-                        <button
+
+                        <Image style={{display: "block", margin: "10px auto 5px"}} width={200} src={`/images/${currentProduct.image}`} alt={currentProduct.name} />
+
+
+                        <Typography.Text style={{display: "block"}}>
+                            <strong>Price:</strong>${currentProduct.price}
+                        </Typography.Text>
+
+                            <Button style={{margin: "10px 5px 0"}} type='primary' onClick={addToCart}>Add to Cart</Button>
+                            <Button style={{margin: "0 5px"}} type='danger'
                             disabled={!cart.find((p) => p._id === currentProduct._id)}
                             onClick={removeFromCart}
-                        > Remove from Shopping Cart </button>
-                    </p>
+                            >
+                            Remove from Cart
+                            </Button>
 
-                    <img
-                        src={`/images/${currentProduct.image}`}
-                        alt={currentProduct.name}
-                    />
-                </div>
+                        
+                        <Typography.Text type='secondary' style={{display: "block", padding: "5px 10px"}}>
+                            {currentProduct.description}
+                        </Typography.Text>
+
+                    </Col>
+                </Fragment>
             ) : null}
             {loading ? <img stc={spinner} alt='loading' />: null}
-            <Cart />
-        </>
+        </Fragment>
     );
 }
 

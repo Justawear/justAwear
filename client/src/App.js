@@ -9,12 +9,12 @@ import {
 import { setContext } from '@apollo/client/link/context';
 
 import Home from './pages/Home';
-// FIXME: Future Pages.
 import Detail from './pages/Detail';
 import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Nav from './components/Nav';
+import Footer from './components/Footer'
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 
@@ -42,7 +42,6 @@ export default function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          {/* FIXME: Future Routes */}
             <Nav />
             <Switch>
               <Route exact path="/" component={Home} />
@@ -53,6 +52,7 @@ export default function App() {
               <Route exact path="/products/:id" component={Detail} />
               <Route component={NoMatch} />
             </Switch>
+            <Footer />
         </div>
       </Router>
     </ApolloProvider>
