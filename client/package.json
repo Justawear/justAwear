@@ -1,10 +1,26 @@
 {
-  "name": "justawear-client",
-  "version": "1.0.0",
-  "description": "Client side code for justawear",
+  "name": "mern-client",
+  "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
-  "main": "index.js",
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@apollo/client": "^3.3.7",
+    "@stripe/stripe-js": "^1.3.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.18.3",
+    "graphql": "^14.6.0",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1"
+  },
   "scripts": {
     "build:tailwind": "postcss src/tailwind.css -o public/tailwind.generated.css",
     "watch:tailwind": "postcss -w src/tailwind.css -o public/tailwind.generated.css",
@@ -14,23 +30,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "@apollo/client": "^3.5.7",
-    "@fullhuman/postcss-purgecss": "^4.1.3",
-    "@stripe/stripe-js": "^1.22.0",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "graphql": "^16.2.0",
-    "jwt-decode": "^3.1.2",
-    "npm-run-all": "^4.1.5",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.1",
-    "react-scripts": "^5.0.0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,6 +50,7 @@
     "autoprefixer": "^10.4.2",
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.0.2",
-    "tailwindcss": "^3.0.13"
+    "tailwindcss": "^3.0.13",
+    "npm-run-all": "^4.1.5"
   }
 }
