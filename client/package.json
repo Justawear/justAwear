@@ -22,8 +22,8 @@
     "redux-thunk": "^2.4.1"
   },
   "scripts": {
-    "build:tailwind": "postcss src/tailwind.css -o public/tailwind.generated.css",
-    "watch:tailwind": "postcss -w src/tailwind.css -o public/tailwind.generated.css",
+    "build:tailwind": "postcss src/tailwind.css -o src/tailwind.generated.css",
+    "watch:tailwind": "postcss -w src/tailwind.css -o src/tailwind.generated.css",
     "start": "react-scripts start",
     "dev": "run-p watch:tailwind start",
     "prebuild": "npm run build:tailwind",
