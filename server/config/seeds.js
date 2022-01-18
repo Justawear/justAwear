@@ -251,96 +251,96 @@ db.once('open', async () => {
       price: 44.99,
       quantity: 30
     },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
+    {
+      name: 'Striped Tee',
+      category: categories[2]._id,
+      description:
+        "Classic stripes and soft cotton jersey make this tee perfect for any day of the week.",
+      image: 'kids/boystee.jpeg',
+      price: 29.99,
+      quantity: 30
+    },
+    {
+      name: 'Mesh Polo Shirt',
+      category: categories[2]._id,
+      description:
+        "This Polo shirt is crafted from comfortable cotton mesh and finished with our signature embroidered Pony.",
+      image: 'kids/boyspolo.jpeg',
+      price: 45.99,
+      quantity: 30
+    },
+    {
+      name: 'Paint-Splatter Short',
+      category: categories[2]._id,
+      description:
+        "In our modern Sullivan Slim fit, these lightweight denim shorts get a playful update with frayed hems and allover paint splatters.",
+      image: 'kids/paintshort.jpeg',
+      price: 44.99,
+      quantity: 30
+    },
+    {
+      name: 'Swim Trunk',
+      category: categories[2]._id,
+      description:
+        "These lined swim trunks feature watercolor-inspired stripes and our signature embroidered Pony.",
+      image: 'kids/swimshort.jpeg',
+      price: 19.99,
+      quantity: 30
+    },
+    {
+      name: 'Jogger Pants',
+      category: categories[2]._id,
+      description:
+        "Made from soft cotton-blend fleece and finished with our signature embroidered pony, these cozy jogger pants are sure to be a fast favorite.",
+      image: 'kids/boyssweat.jpeg',
+      price: 43.99,
+      quantity: 30
+    },
+    {
+      name: 'Slim Jeans',
+      category: categories[2]._id,
+      description:
+        "Inspired by our men's Sullivan Slim jeans, this faded pair is made from lightweight stretch denim for all-day comfort.",
+      image: 'kids/boysjean.jpeg',
+      price: 67.99,
+      quantity: 30
+    },
+    {
+      name: 'Chino Shirtdress',
+      category: categories[2]._id,
+      description:
+        "With a classic fit-and-flare silhouette and a matching belt, this chino shirtdress is a charming pick for parties and family photos.",
+      image: 'kids/chinodress.jpeg',
+      price: 67.99,
+      quantity: 30
+    },
+    {
+      name: 'Long Down Jacket',
+      category: categories[2]._id,
+      description:
+        "Ideal for rainy or windy days, this quilted jacket is crafted with a water-repellent shell, warm 650-fill-power down, and a longer silhouette to help keep her warm and dry. It's finished with a signature print at the hem and an interior patch featuring the Polo Bear.",
+      image: 'kids/kidsjacket.jpeg',
+      price: 185.99,
+      quantity: 30
+    },
+    {
+      name: 'Western Shirt',
+      category: categories[2]._id,
+      description:
+        "A Polo must-have, this Western-style shirt is made from lightweight cotton chambray and washed for a broken-in look",
+      image: 'kids/westernshirt.jpeg',
+      price: 34.99,
+      quantity: 30
+    },
+    {
+      name: 'Cotton Sweater',
+      category: categories[2]._id,
+      description:
+        "Inspired by a men's style, this version of our signature cricket sweater gets a playful update with colorful contrasting stripes.",
+      image: 'kids/cricketjacket.jpeg',
+      price: 24.99,
+      quantity: 30
+    },
     // {
     //   name: '',
     //   category: categories[3]._id,
