@@ -341,114 +341,114 @@ db.once('open', async () => {
       price: 24.99,
       quantity: 30
     },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
+    {
+      name: 'Chelsea Boot',
+      category: categories[3]._id,
+      description:
+        "A refined take on the classic Chelsea boot, the Penfield is meticulously crafted in Italy from supple French calfskin.",
+      image: 'shoes/chelseaboot.jpeg',
+      price: 234.99,
+      quantity: 60
+    },
+    {
+      name: 'White Sneakers',
+      category: categories[3]._id,
+      description:
+        "A luxurious take on an athletic style, the Severn is meticulously crafted from calfskin in Italy. Hand-stitched detailing and a classic cupsole construction ensure exceptional durability and comfort.",
+      image: 'shoes/whiteshoes.jpeg',
+      price: 46.99,
+      quantity: 60
+    },
+    {
+      name: 'Slippers',
+      category: categories[3]._id,
+      description:
+        "Designed for warmth and comfort, the Yarmond slipper features a luxurious shearling lining and a durable leather sole. This iteration is styled with a wool-and-alpaca herringbone upper and finished with leather laces.",
+      image: 'shoes/slippers.jpeg',
+      price: 35.99,
+      quantity: 60
+    },
+    {
+      name: 'Boots',
+      category: categories[3]._id,
+      description:
+        "The Bryson unites the refined styling of a cap-toe dress boot with the rugged durability of a rubber lug sole. This version is realized in oiled roughout suede.",
+      image: 'shoes/captoeboots.jpeg',
+      price: 120.99,
+      quantity: 60
+    },
+    {
+      name: 'Calfskin Boot',
+      category: categories[3]._id,
+      description:
+        "Crafted from Italian sueded calfskin, the Zoe boot is designed with a slender heel, a buckled ankle strap, and signature D-ring hardware.",
+      image: 'shoes/ladyboots.jpeg',
+      price: 200.99,
+      quantity: 60
+    },
+    {
+      name: 'Brown Loafer',
+      category: categories[3]._id,
+      description:
+        "Part of the Ralph Lauren Welington Collection, the Audrey is modeled after a classic menswear loafer but updated to evoke Ralph Lauren's equestrian heritage. Utilizing a footwear construction known as Bologna, which allows for more flexibility and comfort, this shoe is crafted from burnished calfskin. The Italian-made style is finished with double-needle stitching at the upper and a calfskin strap that loops through a polished gold-tone stirrup buckle and secures at the vamp with a stud and keeper.",
+      image: 'shoes/ladyloafer.jpeg',
+      price: 83.99,
+      quantity: 60
+    },
+    {
+      name: 'Black Heels',
+      category: categories[3]._id,
+      description:
+        "This essential pointy-toe pump is crafted from luxe suede and designed with a comfortable heel.",
+      image: 'shoes/ladyheels.jpeg',
+      price: 230.99,
+      quantity: 60
+    },
+    {
+      name: 'Suede Sneaker',
+      category: categories[3]._id,
+      description:
+        "Inspired by a '30s military physical-training sneaker. Made from suede with a vulcanized rubber outsole. Constructed on a custom Double RL last. Available in men's sizes from 5 to 13. We suggest women order two sizes smaller than their usual size. Please see the size chart for a conversion guide.",
+      image: 'shoes/suedesneaker.jpeg',
+      price: 76.99,
+      quantity: 60
+    },
+    {
+      name: 'Blue Sneaker',
+      category: categories[3]._id,
+      description:
+        "A modern minimalist take on a classic running shoe silhouette, the Ethan is realized in supple calf suede. Tonal laces and detailing lend this Italian-made shoe an elegant look, while the Vibram® rubber sole provides superior traction.",
+      image: 'shoes/bluesneaker.jpeg',
+      price: 70.99,
+      quantity: 60
+    },
+    {
+      name: 'Leather Sandals',
+      category: categories[3]._id,
+      description:
+        "Made in Portugal from Italian vachetta leather, this sandal is designed with a contemporary slotted construction and a feminine buckled ankle strap. The endlessly versatile heel height is paired with a padded leather insole, promising unparalleled comfort.",
+      image: 'shoes/ladysandal.jpeg',
+      price: 110.99,
+      quantity: 60
+    },
+    {
+      name: 'Black Sandals',
+      category: categories[3]._id,
+      description:
+        "Each element of the Jacie is thoroughly considered, like the treatment of the calfskin, which is aniline-dyed to emphasize its natural texture and grains, to the polished gold-tone stirrup buckle, which nods to Ralph Lauren's signature equestrian style. Made in Italy, this timeless slide silhouette is designed with a squared, open toe and a meticulously woven vamp.",
+      image: 'shoes/blacksandals.jpeg',
+      price: 15.99,
+      quantity: 60
+    },
+    {
+      name: 'Hiking Boots',
+      category: categories[3]._id,
+      description:
+        "Inspired by an original Polo Sport urban hiking boot from the '90s, this high-top sneaker is crafted from rugged oiled suede. An EVA midsole and a rubber lug outsole provide support and traction.",
+      image: 'shoes/hikingboots.jpeg',
+      price: 224.99,
+      quantity: 60
+    },
     // {
     //   name: '',
     //   category: categories[4]._id,
