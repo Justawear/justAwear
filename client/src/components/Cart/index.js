@@ -87,20 +87,10 @@ const Cart = () => {
     return sum;
   }
 
-  // if (cart && !cartOpen) {
-  //   return (
-  //     <div onClick={showModal} style={{marginRight: "15px"}}>
-  //       <span role="img" aria-label="trash">
-  //         🛒
-  //       </span>
-  //     </div>
-  //   );
-  // }
-
   return (
     <Fragment>
       <Badge count={calcCount()}>
-        <div onClick={showModal} style={{marginRight: "15px", width: "100%", height: "100%"}}>
+        <div onClick={showModal}  style={{marginRight: "15px", width: "100%", height: "100%"}}>
           <span role="img" aria-label="trash">
             🛒
           </span>

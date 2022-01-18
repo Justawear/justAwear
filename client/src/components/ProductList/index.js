@@ -68,7 +68,7 @@ const ProductList = () => {
           </Row>
       ) : (
         <Typography.Title level={3}>
-          We havn't Added Products Yet.
+          You Haven't Added Products Yet!
         </Typography.Title>
       )}
       {loading ? <img src={spinner} alt="loading" /> : null}

@@ -52,9 +52,17 @@ const CategoryMenu = () => {
       <Col className="hero">
         <Typography.Title level={3} style={{color: "white"}}>CHOOSE CATEGORY</Typography.Title>
         <Radio.Group buttonStyle="solid" style={{margin: "10px auto"}} size="large">
+          <Radio.Button key="all" onClick={() => {
+                    handleClick("");
+                  }}
+                  style={{margin: "5px 5px"}}>
+                    All
+                  </Radio.Button>
           {categories.map(category => {
             return (
-              <Radio.Button key={category._id}
+              <Fragment>
+                
+                <Radio.Button key={category._id}
                 onClick={() => {
                   handleClick(category._id);
                 }}
@@ -62,6 +70,7 @@ const CategoryMenu = () => {
               >
                 {category.name}
               </Radio.Button>
+              </Fragment>
             )
           })}
         </Radio.Group>
