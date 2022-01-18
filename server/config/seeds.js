@@ -449,114 +449,114 @@ db.once('open', async () => {
       price: 224.99,
       quantity: 60
     },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // }
+    {
+      name: 'Gold Watch',
+      category: categories[4]._id,
+      description:
+        "Gold Tone Stainless Steel Bracelet with Deployant Closure",
+      image: 'accessories/versacewatch.webp',
+      price: 642.99,
+      quantity: 600
+    },
+    {
+      name: 'Fitness Watch',
+      category: categories[4]._id,
+      description:
+        "Meet our most advanced fitness & health tracker with tools like an on-wrist ECG app for heart health,** EDA Scan app for stress management and more.",
+      image: 'accessories/fitness_tracker_1.webp',
+      price: 172.99,
+      quantity: 600
+    },
+    {
+      name: 'Wireless Headphones',
+      category: categories[4]._id,
+      description:
+        "Uses Qualcomm chipsets to create sound waves that mirror outside noise, cancelling out the ambient sound without compromising the source audio",
+      image: 'accessories/headphones.webp',
+      price: 217.99,
+      quantity: 600
+    },
+    {
+      name: 'Chain Bracelet',
+      category: categories[4]._id,
+      description:
+        "A funfetti sprinkling of hand painted hearts, the Haven Heart Chain Bracelet is the sweetest stack reminder to gift, or to get.",
+      image: 'accessories/bracelet.webp',
+      price: 72.99,
+      quantity: 600
+    },
+    {
+      name: 'Diamond Ring',
+      category: categories[4]._id,
+      description:
+        "Since 1895, founder Daniel Swarovski’s mastery of crystal cutting has defined the company. His enduring passion for innovation and design has made it the world’s premier jewelry and accessory brand.",
+      image: 'accessories/diamondring.webp',
+      price: 782.99,
+      quantity: 600
+    },
+    {
+      name: 'Brown Belt',
+      category: categories[4]._id,
+      description:
+        "Timeless Ralph Lauren style—dresses, tops, denim, accessories, and more—for work, the weekend, and every moment in between.",
+      image: 'accessories/ladybelt.jpeg',
+      price: 24.99,
+      quantity: 600
+    },
+    {
+      name: 'Sunglasses',
+      category: categories[4]._id,
+      description:
+        "Saint Laurent eyewear fully represents the house’s distinctive fashion attitude; timeless style and contemporary luxury. The collections are a fine selection of unique products distinguished by an outstanding quality.",
+      image: 'accessories/sunglasses.webp',
+      price: 351.99,
+      quantity: 600
+    },
+    {
+      name: 'Smart Watch',
+      category: categories[4]._id,
+      description:
+        "His namesake company, established in 1981, has over 950 stores in more than 100 countries worldwide, as well as wholesale distribution to top department stores around the globe",
+      image: 'accessories/smartwatch.webp',
+      price: 742.99,
+      quantity: 600
+    },
+    {
+      name: 'Backpack',
+      category: categories[4]._id,
+      description:
+        "Hailing from the small town of Örnsköldsvik in Sweden, a place where mountains and forest meet the sea, Fjällräven is an outdoor clothing and equipment company that’s committed to making nature more accessible. In true Swedish style, we focus on simplicity and practicality, and we have the utmost respect for the environment",
+      image: 'accessories/backpack.webp',
+      price: 62.99,
+      quantity: 600
+    },
+    {
+      name: 'Hiking Backpack',
+      category: categories[4]._id,
+      description:
+        "Founded in 2009 by brothers Jamie and Lyndon Cormack, Herschel Supply Co. adopted the name of the town where three generations of their family grew up.",
+      image: 'accessories/supplybag.webp',
+      price: 156.99,
+      quantity: 600
+    },
+    {
+      name: 'Beanie',
+      category: categories[4]._id,
+      description:
+        "We are named for the coldest, most unforgiving side of a mountain. We have helped explorers reach the most unfathomable heights of the Himalayas.",
+      image: 'accessories/beanie.webp',
+      price: 33.99,
+      quantity: 600
+    },
+    {
+      name: 'Fedora',
+      category: categories[4]._id,
+      description:
+        "Our collections showcase our use of innovative and classic textiles to not only highlight the glamour of women, but also the sophistication of the modern man.",
+      image: 'accessories/fedora.jpeg',
+      price: 177.99,
+      quantity: 600
+    }
   ]);
 
   console.log('products seeded');
