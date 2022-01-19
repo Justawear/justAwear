@@ -6,7 +6,7 @@
   "scripts": {
     "pre:develop": "cd server &&  npm install && cd ../client && npm install",
     "preinstall": "cd server && npm install && cd ../client && npm install",
-    "postinstall": "cd client && npm run build:tailwind && npm run build",
+    "postinstall": "cd client && npm run build:tailwind && npm run build && cd../server && npm run seed",
     "seed": "cd server && npm run seed",
     "watch:server": "cd server && npm run watch",
     "watch:client": "cd client && npm run start",
