@@ -11,7 +11,7 @@ const Footer = () => {
 
 <div className="footer-left">
 
-  <h3>JUST<span>AWARE</span></h3>
+  <h3>JUST<span>AWEAR</span></h3>
 
   <p className="footer-links">
     <a href="#">Made in Texas BABY</a>
@@ -34,7 +34,7 @@ const Footer = () => {
 
   <div>
     <i className="fa fa-envelope"></i>
-    <p><a href="mailto:support@company.com">info@justware.com</a></p>
+    <p><a href="mailto:support@company.com">info@justawear.com</a></p>
   </div>
 
 </div>
@@ -43,7 +43,7 @@ const Footer = () => {
 
   <p className="footer-company-about">
     <span>About the company</span>
-    Web Dev Trick is a blog for web designers, graphic designers, web developers &amp; SEO Learner.
+    The go-to site for all things clothing! Be sure to check us out on our social media below!
   </p>
 
   <div className="footer-icons">
