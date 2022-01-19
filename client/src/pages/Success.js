@@ -15,12 +15,16 @@ const Success = () => {
       const products = cart.map((item) => item._id);
 
       if (products.length) {
-        const { data } = await addOrder({ variables: { products } });
-        const productData = data.addOrder.products;
+        try {
+          const { data } = await addOrder({ variables: { products } });
+          const productData = data.addOrder.products;
 
-        productData.forEach((item) => {
-          idbPromise('cart', 'delete', item);
-        });
+          productData.forEach((item) => {
+            idbPromise('cart', 'delete', item);
+          });
+        } catch (err) {
+          console.log(err); // TODO: Something more informative to the user than this
+        }
       }
 
       setTimeout(() => {
