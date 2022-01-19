@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pre:develop": "cd server &&  npm install && cd ../client && npm install",
+    "preinstall": "cd server && npm install && cd ../client && npm install && npm run build:tailwind",
     "seed": "cd server && npm run seed",
     "watch:server": "cd server && npm run watch",
     "watch:client": "cd client && npm run start",
