@@ -42,8 +42,8 @@ https://justawear-mern.herokuapp.com/
 
 ## Contribution
 Made with ❤️ by the justAwear Team:
-* Lance Kelly
-* Lisa Roso
+* Lance Kelley
+* Lisa Rozo
 * Adam Romano
 * Killian Chamberlain
 * Kevin Hernandez
