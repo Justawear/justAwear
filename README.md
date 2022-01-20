@@ -42,11 +42,11 @@ https://justawear-mern.herokuapp.com/
 
 ## Contribution
 Made with ❤️ by the justAwear Team:
-Lance Kelly
-Lisa Roso
-Adam Romano
-Killian Chamberlain
-Kevin Hernandez
-James Branch
+#### Lance Kelly
+#### Lisa Roso
+#### Adam Romano
+#### Killian Chamberlain
+#### Kevin Hernandez
+#### James Branch
 
 ### Your Favorite Clothing Store!
