@@ -1,7 +1,7 @@
 # justAwear
 
 ## What is justAwear?
-A place to shop and buy cloths for Men, Women, Kids. If you're into shoes and accessories, we got that too! 
+A place to shop and buy cloths for Men, Women, and Kids! If you're into shoes and accessories, we got that too! 
 
 ## Screenshots of Functional Web Application
 
