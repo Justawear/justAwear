@@ -251,312 +251,312 @@ db.once('open', async () => {
       price: 44.99,
       quantity: 30
     },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[2]._id,
-    //   description:
-    //     "",
-    //   image: 'kids/.jpeg',
-    //   price: .99,
-    //   quantity: 30
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[3]._id,
-    //   description:
-    //     "",
-    //   image: 'shoes/',
-    //   price: .99,
-    //   quantity: 60
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: '',
-    //   category: categories[4]._id,
-    //   description:
-    //     "",
-    //   image: 'accessories/',
-    //   price: 142.99,
-    //   quantity: 600
-    // }
+    {
+      name: 'Striped Tee',
+      category: categories[2]._id,
+      description:
+        "Classic stripes and soft cotton jersey make this tee perfect for any day of the week.",
+      image: 'kids/boystee.jpeg',
+      price: 29.99,
+      quantity: 30
+    },
+    {
+      name: 'Mesh Polo Shirt',
+      category: categories[2]._id,
+      description:
+        "This Polo shirt is crafted from comfortable cotton mesh and finished with our signature embroidered Pony.",
+      image: 'kids/boyspolo.jpeg',
+      price: 45.99,
+      quantity: 30
+    },
+    {
+      name: 'Paint-Splatter Short',
+      category: categories[2]._id,
+      description:
+        "In our modern Sullivan Slim fit, these lightweight denim shorts get a playful update with frayed hems and allover paint splatters.",
+      image: 'kids/paintshort.jpeg',
+      price: 44.99,
+      quantity: 30
+    },
+    {
+      name: 'Swim Trunk',
+      category: categories[2]._id,
+      description:
+        "These lined swim trunks feature watercolor-inspired stripes and our signature embroidered Pony.",
+      image: 'kids/swimshort.jpeg',
+      price: 19.99,
+      quantity: 30
+    },
+    {
+      name: 'Jogger Pants',
+      category: categories[2]._id,
+      description:
+        "Made from soft cotton-blend fleece and finished with our signature embroidered pony, these cozy jogger pants are sure to be a fast favorite.",
+      image: 'kids/boyssweat.jpeg',
+      price: 43.99,
+      quantity: 30
+    },
+    {
+      name: 'Slim Jeans',
+      category: categories[2]._id,
+      description:
+        "Inspired by our men's Sullivan Slim jeans, this faded pair is made from lightweight stretch denim for all-day comfort.",
+      image: 'kids/boysjean.jpeg',
+      price: 67.99,
+      quantity: 30
+    },
+    {
+      name: 'Chino Shirtdress',
+      category: categories[2]._id,
+      description:
+        "With a classic fit-and-flare silhouette and a matching belt, this chino shirtdress is a charming pick for parties and family photos.",
+      image: 'kids/chinodress.jpeg',
+      price: 67.99,
+      quantity: 30
+    },
+    {
+      name: 'Long Down Jacket',
+      category: categories[2]._id,
+      description:
+        "Ideal for rainy or windy days, this quilted jacket is crafted with a water-repellent shell, warm 650-fill-power down, and a longer silhouette to help keep her warm and dry. It's finished with a signature print at the hem and an interior patch featuring the Polo Bear.",
+      image: 'kids/kidsjacket.jpeg',
+      price: 185.99,
+      quantity: 30
+    },
+    {
+      name: 'Western Shirt',
+      category: categories[2]._id,
+      description:
+        "A Polo must-have, this Western-style shirt is made from lightweight cotton chambray and washed for a broken-in look",
+      image: 'kids/westernshirt.jpeg',
+      price: 34.99,
+      quantity: 30
+    },
+    {
+      name: 'Cotton Sweater',
+      category: categories[2]._id,
+      description:
+        "Inspired by a men's style, this version of our signature cricket sweater gets a playful update with colorful contrasting stripes.",
+      image: 'kids/cricketjacket.jpeg',
+      price: 24.99,
+      quantity: 30
+    },
+    {
+      name: 'Chelsea Boot',
+      category: categories[3]._id,
+      description:
+        "A refined take on the classic Chelsea boot, the Penfield is meticulously crafted in Italy from supple French calfskin.",
+      image: 'shoes/chelseaboot.jpeg',
+      price: 234.99,
+      quantity: 60
+    },
+    {
+      name: 'White Sneakers',
+      category: categories[3]._id,
+      description:
+        "A luxurious take on an athletic style, the Severn is meticulously crafted from calfskin in Italy. Hand-stitched detailing and a classic cupsole construction ensure exceptional durability and comfort.",
+      image: 'shoes/whiteshoes.jpeg',
+      price: 46.99,
+      quantity: 60
+    },
+    {
+      name: 'Slippers',
+      category: categories[3]._id,
+      description:
+        "Designed for warmth and comfort, the Yarmond slipper features a luxurious shearling lining and a durable leather sole. This iteration is styled with a wool-and-alpaca herringbone upper and finished with leather laces.",
+      image: 'shoes/slippers.jpeg',
+      price: 35.99,
+      quantity: 60
+    },
+    {
+      name: 'Boots',
+      category: categories[3]._id,
+      description:
+        "The Bryson unites the refined styling of a cap-toe dress boot with the rugged durability of a rubber lug sole. This version is realized in oiled roughout suede.",
+      image: 'shoes/captoeboots.jpeg',
+      price: 120.99,
+      quantity: 60
+    },
+    {
+      name: 'Calfskin Boot',
+      category: categories[3]._id,
+      description:
+        "Crafted from Italian sueded calfskin, the Zoe boot is designed with a slender heel, a buckled ankle strap, and signature D-ring hardware.",
+      image: 'shoes/ladyboots.jpeg',
+      price: 200.99,
+      quantity: 60
+    },
+    {
+      name: 'Brown Loafer',
+      category: categories[3]._id,
+      description:
+        "Part of the Ralph Lauren Welington Collection, the Audrey is modeled after a classic menswear loafer but updated to evoke Ralph Lauren's equestrian heritage. Utilizing a footwear construction known as Bologna, which allows for more flexibility and comfort, this shoe is crafted from burnished calfskin. The Italian-made style is finished with double-needle stitching at the upper and a calfskin strap that loops through a polished gold-tone stirrup buckle and secures at the vamp with a stud and keeper.",
+      image: 'shoes/ladyloafer.jpeg',
+      price: 83.99,
+      quantity: 60
+    },
+    {
+      name: 'Black Heels',
+      category: categories[3]._id,
+      description:
+        "This essential pointy-toe pump is crafted from luxe suede and designed with a comfortable heel.",
+      image: 'shoes/ladyheels.jpeg',
+      price: 230.99,
+      quantity: 60
+    },
+    {
+      name: 'Suede Sneaker',
+      category: categories[3]._id,
+      description:
+        "Inspired by a '30s military physical-training sneaker. Made from suede with a vulcanized rubber outsole. Constructed on a custom Double RL last. Available in men's sizes from 5 to 13. We suggest women order two sizes smaller than their usual size. Please see the size chart for a conversion guide.",
+      image: 'shoes/suedesneaker.jpeg',
+      price: 76.99,
+      quantity: 60
+    },
+    {
+      name: 'Blue Sneaker',
+      category: categories[3]._id,
+      description:
+        "A modern minimalist take on a classic running shoe silhouette, the Ethan is realized in supple calf suede. Tonal laces and detailing lend this Italian-made shoe an elegant look, while the Vibram® rubber sole provides superior traction.",
+      image: 'shoes/bluesneaker.jpeg',
+      price: 70.99,
+      quantity: 60
+    },
+    {
+      name: 'Leather Sandals',
+      category: categories[3]._id,
+      description:
+        "Made in Portugal from Italian vachetta leather, this sandal is designed with a contemporary slotted construction and a feminine buckled ankle strap. The endlessly versatile heel height is paired with a padded leather insole, promising unparalleled comfort.",
+      image: 'shoes/ladysandal.jpeg',
+      price: 110.99,
+      quantity: 60
+    },
+    {
+      name: 'Black Sandals',
+      category: categories[3]._id,
+      description:
+        "Each element of the Jacie is thoroughly considered, like the treatment of the calfskin, which is aniline-dyed to emphasize its natural texture and grains, to the polished gold-tone stirrup buckle, which nods to Ralph Lauren's signature equestrian style. Made in Italy, this timeless slide silhouette is designed with a squared, open toe and a meticulously woven vamp.",
+      image: 'shoes/blacksandals.jpeg',
+      price: 15.99,
+      quantity: 60
+    },
+    {
+      name: 'Hiking Boots',
+      category: categories[3]._id,
+      description:
+        "Inspired by an original Polo Sport urban hiking boot from the '90s, this high-top sneaker is crafted from rugged oiled suede. An EVA midsole and a rubber lug outsole provide support and traction.",
+      image: 'shoes/hikingboots.jpeg',
+      price: 224.99,
+      quantity: 60
+    },
+    {
+      name: 'Gold Watch',
+      category: categories[4]._id,
+      description:
+        "Gold Tone Stainless Steel Bracelet with Deployant Closure",
+      image: 'accessories/versacewatch.webp',
+      price: 642.99,
+      quantity: 600
+    },
+    {
+      name: 'Fitness Watch',
+      category: categories[4]._id,
+      description:
+        "Meet our most advanced fitness & health tracker with tools like an on-wrist ECG app for heart health,** EDA Scan app for stress management and more.",
+      image: 'accessories/fitness_tracker_1.webp',
+      price: 172.99,
+      quantity: 600
+    },
+    {
+      name: 'Wireless Headphones',
+      category: categories[4]._id,
+      description:
+        "Uses Qualcomm chipsets to create sound waves that mirror outside noise, cancelling out the ambient sound without compromising the source audio",
+      image: 'accessories/headphones.webp',
+      price: 217.99,
+      quantity: 600
+    },
+    {
+      name: 'Chain Bracelet',
+      category: categories[4]._id,
+      description:
+        "A funfetti sprinkling of hand painted hearts, the Haven Heart Chain Bracelet is the sweetest stack reminder to gift, or to get.",
+      image: 'accessories/bracelet.webp',
+      price: 72.99,
+      quantity: 600
+    },
+    {
+      name: 'Diamond Ring',
+      category: categories[4]._id,
+      description:
+        "Since 1895, founder Daniel Swarovski’s mastery of crystal cutting has defined the company. His enduring passion for innovation and design has made it the world’s premier jewelry and accessory brand.",
+      image: 'accessories/diamondring.webp',
+      price: 782.99,
+      quantity: 600
+    },
+    {
+      name: 'Brown Belt',
+      category: categories[4]._id,
+      description:
+        "Timeless Ralph Lauren style—dresses, tops, denim, accessories, and more—for work, the weekend, and every moment in between.",
+      image: 'accessories/ladybelt.jpeg',
+      price: 24.99,
+      quantity: 600
+    },
+    {
+      name: 'Sunglasses',
+      category: categories[4]._id,
+      description:
+        "Saint Laurent eyewear fully represents the house’s distinctive fashion attitude; timeless style and contemporary luxury. The collections are a fine selection of unique products distinguished by an outstanding quality.",
+      image: 'accessories/sunglasses.webp',
+      price: 351.99,
+      quantity: 600
+    },
+    {
+      name: 'Smart Watch',
+      category: categories[4]._id,
+      description:
+        "His namesake company, established in 1981, has over 950 stores in more than 100 countries worldwide, as well as wholesale distribution to top department stores around the globe",
+      image: 'accessories/smartwatch.webp',
+      price: 742.99,
+      quantity: 600
+    },
+    {
+      name: 'Backpack',
+      category: categories[4]._id,
+      description:
+        "Hailing from the small town of Örnsköldsvik in Sweden, a place where mountains and forest meet the sea, Fjällräven is an outdoor clothing and equipment company that’s committed to making nature more accessible. In true Swedish style, we focus on simplicity and practicality, and we have the utmost respect for the environment",
+      image: 'accessories/backpack.webp',
+      price: 62.99,
+      quantity: 600
+    },
+    {
+      name: 'Hiking Backpack',
+      category: categories[4]._id,
+      description:
+        "Founded in 2009 by brothers Jamie and Lyndon Cormack, Herschel Supply Co. adopted the name of the town where three generations of their family grew up.",
+      image: 'accessories/supplybag.webp',
+      price: 156.99,
+      quantity: 600
+    },
+    {
+      name: 'Beanie',
+      category: categories[4]._id,
+      description:
+        "We are named for the coldest, most unforgiving side of a mountain. We have helped explorers reach the most unfathomable heights of the Himalayas.",
+      image: 'accessories/beanie.webp',
+      price: 33.99,
+      quantity: 600
+    },
+    {
+      name: 'Fedora',
+      category: categories[4]._id,
+      description:
+        "Our collections showcase our use of innovative and classic textiles to not only highlight the glamour of women, but also the sophistication of the modern man.",
+      image: 'accessories/fedora.jpeg',
+      price: 177.99,
+      quantity: 600
+    }
   ]);
 
   console.log('products seeded');
